@@ -1,0 +1,56 @@
+* {
+  font-family: 'Alice', serif;
+  font-size: 16px;
+  text-align: center;
+  background-color: #ebf1e4;
+  color: #4f3702;
+}
+
+h1 {
+  font-family: 'Sacramento', cursive;
+  font-size: 2rem;
+}
+
+h3 {
+  width: 100%;
+  height: 30%;
+  margin: 20px auto;
+  background-color: #fcde9c;
+  color: #663100;
+}
+
+button {
+  width: 60%;
+  height: 3rem;
+  background-color: #d7e3c9;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #9BBA78;
+}
+
+#app {
+  height: 200px;
+  position: relative;
+  margin: 150px auto;
+}
+
+#app-container {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+#affirmation {
+  background-color: #fcde9c;
+  width: 60%;
+  height: 100px;
+  margin: 40px auto;
+  display: block;
+  align-content: center;
+  border-radius: 15px;
+}
